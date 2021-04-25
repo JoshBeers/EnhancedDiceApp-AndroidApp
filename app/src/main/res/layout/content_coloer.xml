@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".coloer"
+    tools:showIn="@layout/activity_coloer">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R:"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/rL"
+        android:layout_margin="10dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/rL"
+        android:id="@+id/red"
+        android:max="255"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G:"
+        app:layout_constraintTop_toBottomOf="@id/rL"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/gL"/>
+
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/rL"
+        app:layout_constraintStart_toStartOf="@+id/gL"
+        android:id="@+id/green"
+        android:max="255"/>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B:"
+        app:layout_constraintTop_toBottomOf="@id/gL"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/bL"/>
+
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:layout_margin="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/gL"
+        app:layout_constraintStart_toStartOf="@+id/bL"
+        android:id="@+id/blue"
+        android:max="255"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="32dp"
+        android:background="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/img"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
