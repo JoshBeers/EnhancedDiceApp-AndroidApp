@@ -3,5 +3,5 @@ The Enhanced Dice App allows the user to roll between 1 and 3 dice. They may rol
 
 This app was made using android studio and tested on andriod 10.
 
-(video Demostration)[https://drive.google.com/file/d/1FrYosKePaLQFcIoYuaZrdUjMFI_vPLs-/view]
-(info page)[https://www.vialivetext.com/showcases?title=RW5oYW5jZWQlMjBEaWNlJTIwQXBwJTIwLSUyMEFuZHJvaWQlMjBBcHBsaWNhdGlvbg==#/show/5e38f79f3bf5f06f5d0139da]
+[video Demostration](https://drive.google.com/file/d/1FrYosKePaLQFcIoYuaZrdUjMFI_vPLs-/view)
+[info page](https://www.vialivetext.com/showcases?title=RW5oYW5jZWQlMjBEaWNlJTIwQXBwJTIwLSUyMEFuZHJvaWQlMjBBcHBsaWNhdGlvbg==#/show/5e38f79f3bf5f06f5d0139da)
